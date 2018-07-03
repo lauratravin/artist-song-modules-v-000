@@ -4,7 +4,7 @@ class Artist
 
   extend Memorable::ClassMethods   #class methods
   include Memorable::InstanceMethods  #instance methods
-
+  extend Findable    #class methods
   include Paramable #instance methods
 
   attr_accessor :name
