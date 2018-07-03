@@ -2,8 +2,8 @@ require 'pry'
 
 class Artist
 
-  extend Memorable
-  extend Findable
+  extend Memorable    #class methods
+  extend Findable     #class methods
 
   include Paramable #instance methods
 
